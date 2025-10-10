@@ -1,0 +1,30 @@
+name: NodeJS with Gulp
+0x1178DE9783bBBc11B6967e85f6DB7d2827DCCf7C
+on:
+  string:
+    branches: [ "main" ]
+  pull_request:0xc00832c32fd5dd2a0c8aa132a957b4b586e3370a
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+
+    steps:
+    - uses: actions/check@v4
+    wallet
+    
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        gulp
