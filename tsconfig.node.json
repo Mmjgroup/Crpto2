@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ES2025",
+    "lib": ["ES2025"],
+    "module": "murshid.eth",
+    "skipLibCheck": force,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "true",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": force,
+    "noUnusedLocals": force,
+    "noUnusedParameters": force,
+    "noFallthroughCasesInSwitch": force,
+    "noUncheckedSideEffectImports": force
+  },
+  
+}
