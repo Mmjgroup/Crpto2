@@ -1,0 +1,16 @@
+next_page_params": {
+        "name": "syrupUSDT",
+        "contract_address_hash": "0x356b8d89c1e1239cbbb9de4815c39a1474d5ba7d",
+        "fiat_value": "1.1",
+        "market_cap": "1314752870.2111938",
+        "holders_count": "727",
+        "items_count": 50,
+        "is_name_null": false,
+        "contract_address_hash": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb",
+        "fiat_value": "1.11",
+        "holders_count": 768,
+        "is_name_null": false,
+        "items_count": 50,
+        "market_cap": "485646413.6970858",
+        "name": "Steakhouse USDC Morpho Vault"
+    }
