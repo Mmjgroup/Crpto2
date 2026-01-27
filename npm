@@ -2,3 +2,9 @@ mkdir alchemy-demo
 cd alchemy-demo
 npm init --yes
 touch demo-script.js
+npx create-next-app my-smart-wallets-app -e https://github.com/alchemyplatform/smart-wallets-quickstart
+cd my-smart-wallets-app
+# Paste this in your .env file
+NEXT_PUBLIC_ALCHEMY_API_KEY=rlpZwH-CVVslCytYeRXi_
+NEXT_PUBLIC_ALCHEMY_POLICY_ID=9b36298e-4027-4d70-b0a2-240ad0a5b5bb
+yarn run dev
